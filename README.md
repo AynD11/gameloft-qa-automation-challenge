@@ -111,3 +111,10 @@ src
 
 Ayan Dumitrescu
 ASE Bucharest – Management
+
+<img width="1871" height="362" alt="Screenshot 2026-06-02 213840" src="https://github.com/user-attachments/assets/1d986ac3-4bb3-42de-a33b-4e21a7420e72" />
+
+
+
+
+
