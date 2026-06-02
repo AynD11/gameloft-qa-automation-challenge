@@ -102,11 +102,12 @@ src
         └── ApiTest.java
 ```
 
-* `HomePageTest.java` contains UI automation tests implemented using Selenium WebDriver.
-* `ApiTest.java` contains API validation tests implemented using Rest Assured.
+* HomePageTest.java contains UI automation tests implemented using Selenium WebDriver.
+* ApiTest.java contains API validation tests implemented using Rest Assured.
 
 ---
 
 ## Author
 
 Ayan Dumitrescu
+ASE Bucharest – Management
