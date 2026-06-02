@@ -2,29 +2,29 @@
 
 ## Technologies Used
 
-- Java 17
-- Selenium WebDriver
-- JUnit 5
-- Rest Assured
-- Maven
+* Java 17
+* Selenium WebDriver
+* JUnit 5
+* Rest Assured
+* Maven
 
 ---
 
 ## Automated UI Tests
 
-### 1. Homepage loads successfully
+### 1. Homepage Loads Successfully
 
 Verifies that the Ludigames homepage can be opened successfully.
 
-### 2. Homepage contains game cards
+### 2. Homepage Contains Game Cards
 
-Verifies that at least one game card is displayed.
+Verifies that at least one game card is displayed on the homepage.
 
-### 3. Clicking first game opens game page
+### 3. Clicking First Game Opens Game Page
 
 Verifies navigation from the homepage to a game details page.
 
-### 4. Search button is visible
+### 4. Search Button Is Visible
 
 Verifies that the search functionality is accessible to users.
 
@@ -32,11 +32,11 @@ Verifies that the search functionality is accessible to users.
 
 ## Automated API Tests
 
-### 5. Homepage returns HTTP 200
+### 5. Homepage Returns HTTP 200
 
-Verifies that the homepage endpoint responds successfully.
+Verifies that the homepage endpoint responds successfully with status code 200.
 
-### 6. Homepage responds within acceptable time
+### 6. Homepage Responds Within Acceptable Time
 
 Verifies that the response time is below 3000ms.
 
@@ -48,12 +48,12 @@ I selected these scenarios because they cover the most important user flows and 
 
 The automated tests validate:
 
-- Homepage availability
-- Visibility of game content
-- Navigation to game pages
-- Search accessibility
-- API availability
-- API performance
+* Homepage availability
+* Visibility of game content
+* Navigation to game pages
+* Search accessibility
+* API availability
+* API performance
 
 These checks provide a good balance between UI and API testing while validating the core functionality of the platform.
 
@@ -61,19 +61,19 @@ These checks provide a good balance between UI and API testing while validating 
 
 ## How to Run
 
-Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/AynD11/gameloft-qa-automation-challenge.git
 ```
 
-Navigate to the project folder:
+### Navigate to the project folder
 
 ```bash
 cd gameloft-qa-automation-challenge
 ```
 
-Run all tests:
+### Run all tests
 
 ```bash
 mvn test
@@ -83,9 +83,30 @@ mvn test
 
 ## Test Results
 
-All 6 automated tests pass successfully.
+All 6 automated tests were executed successfully.
 
-- 4 UI tests
-- 2 API tests
+* 4 UI tests
+* 2 API tests
 
 The project demonstrates both browser-based and API-based automated testing using Java, Selenium WebDriver, Rest Assured, JUnit 5, and Maven.
+
+---
+
+## Project Structure
+
+```text
+src
+└── test
+    └── java
+        ├── HomePageTest.java
+        └── ApiTest.java
+```
+
+* `HomePageTest.java` contains UI automation tests implemented using Selenium WebDriver.
+* `ApiTest.java` contains API validation tests implemented using Rest Assured.
+
+---
+
+## Author
+
+Ayan Dumitrescu
